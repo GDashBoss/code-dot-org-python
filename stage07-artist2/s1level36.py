@@ -16,8 +16,12 @@ for count in range(3):
     artist.move_forward(100)
     artist.turn_right(120)
 artist.color = artist.random_color()
+a.rt(-30)
+a.back(100)
 for count in range(3):
     artist.move_forward(100)
     artist.turn_right(120)
+
+
 
 artist.check()

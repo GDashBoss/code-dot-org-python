@@ -10,7 +10,10 @@ sys.path.append('..')
 import codestudio
 artist = codestudio.load('s1level35')
 a = artist
-
-# ???
+a.fd(100)
+a.rt(120)
+a.fd(100)
+a.rt(120)
+a.fd(100)
 
 artist.check()

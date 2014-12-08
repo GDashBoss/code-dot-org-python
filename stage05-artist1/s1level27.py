@@ -17,6 +17,7 @@ a = artist
 
 for count in range(3):
     artist.color = artist.random_color()
-    # ???
+    a.fd(100)
+    a.rt(120)
     
 artist.check()

@@ -12,7 +12,8 @@ artist = codestudio.load('s1level33')
 a = artist
 
 artist.color = artist.random_color()
-artist.width = 1
+artist.width = 4
 artist.move_forward(100)
-
+a.rt(57)
+a.fd(37)
 artist.wait()

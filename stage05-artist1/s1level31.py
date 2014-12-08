@@ -1,8 +1,9 @@
 """Stage 5: Puzzle 8 of 10
 
-Ok, try to figure out what happens if you run this code (or run it).
+Ok, try to figure out what happens when you run this code.
 Then, repeat it enough times to complete the drawing. The
-colors will be different every time.
+colors will be different every time. If you don't finish,
+hahahahahaha your not smart xD!
 
 """
 
@@ -12,9 +13,10 @@ import codestudio
 artist = codestudio.load('s1level31')
 a = artist
 
-artist.color = artist.random_color()
-artist.move_forward(100)
-artist.move_backward(100)
-artist.turn_right(45)
+for count in range (8):
+    artist.color = artist.random_color()
+    artist.move_forward(100)
+    artist.move_backward(100)
+    artist.turn_right(45)
 
 artist.check()
