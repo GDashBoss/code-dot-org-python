@@ -20,6 +20,6 @@ for count3 in range(18):
             artist.move_forward(20)
             artist.turn_right(90)
         artist.move_forward(20)
-    artist.turn_right(100)
+    artist.turn_right(123)
 
 artist.wait()

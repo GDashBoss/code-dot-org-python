@@ -13,8 +13,10 @@ a = artist
 
 artist.color = artist.color_random()
 for count in range(4):
+    a.rt(90) 
     for count in range(3):
         artist.move_forward(100)
         artist.turn_right(120)
+a.rt(60)
 
 artist.check()

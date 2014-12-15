@@ -11,7 +11,8 @@ sys.path.append('..')
 import codestudio
 zombie = codestudio.load('s1level59')
 z = zombie
-
-# ???
+for count in range(4):
+    z.fd(100)
+    z.rt(90)
 
 zombie.check()
